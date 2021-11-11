@@ -1,0 +1,14 @@
+.main {
+	height: 80%;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url('./assets/images/tree.jpg');
+	background-size: cover;
+	padding: 0 10%;
+	position: relative;
+}
+.card-wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	// height: 118%;
+}

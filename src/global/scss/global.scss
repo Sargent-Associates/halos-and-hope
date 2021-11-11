@@ -1,0 +1,59 @@
+@import './colors.scss';
+@import './text.scss';
+
+// elements
+* {
+	font-family: 'Montserrat', sans-serif;
+	color: $font-color;
+}
+html,
+body,
+#root {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background: $maroon;
+}
+a {
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		color: lightgrey;
+	}
+}
+header {
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+footer {
+	height: 20%;
+	background: $maroon;
+}
+
+// classes
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.glow {
+	text-shadow: white 0px 0px 10px;
+}
+.white {
+	color: white;
+}
+.scrim {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow-y: scroll;
+	z-index: 10;
+}

@@ -24,6 +24,10 @@ module.exports = {
 	},
 	resolve: {
 		extensions: ['.js'],
+		alias: {
+			['@globals']: path.resolve(__dirname, 'src/global'),
+			['@ui']: path.resolve(__dirname, 'src/components/ui'),
+		},
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
