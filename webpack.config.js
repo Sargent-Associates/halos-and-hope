@@ -6,6 +6,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'main.js',
+		publicPath: '/',
 	},
 	module: {
 		rules: [
@@ -17,8 +18,19 @@ module.exports = {
 				},
 			},
 			{
-				test: /\.scss/,
+				test: /\.(s?)css/,
 				use: ['style-loader', 'css-loader', 'sass-loader'],
+			},
+			{
+				test: /\.(jpeg)$/i,
+				use: [
+					{
+						loader: 'url-loader',
+						options: {
+							limit: 10000,
+						},
+					},
+				],
 			},
 		],
 	},
@@ -36,5 +48,6 @@ module.exports = {
 	],
 	devServer: {
 		static: path.resolve(__dirname, 'dist'),
+		historyApiFallback: true,
 	},
 };

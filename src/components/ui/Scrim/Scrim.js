@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './scrim.scss';
 
 export const Scrim = ({ children }) => {
-	return <div class="scrim">{children}</div>;
+	const navigate = useNavigate();
+
+	return (
+		<div onClick={() => navigate('/')} className="scrim">
+			{children}
+		</div>
+	);
 };

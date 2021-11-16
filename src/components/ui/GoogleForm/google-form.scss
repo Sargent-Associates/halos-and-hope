@@ -1,0 +1,38 @@
+.google-form {
+	position: absolute;
+	background: white;
+	height: 75%;
+	width: 50%;
+	border: 2px solid grey;
+	border-radius: 12px;
+	.loader {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	svg {
+		position: absolute;
+		top: -36px;
+		right: -36px;
+		cursor: pointer;
+		&:hover {
+			path {
+				color: grey;
+			}
+		}
+	}
+}
+@media (max-width: 900px) {
+	.google-form {
+		width: 75%;
+	}
+}
+@media (max-width: 600px) {
+	.google-form {
+		width: 100%;
+		svg {
+			top: -54px;
+			right: 36px;
+		}
+	}
+}

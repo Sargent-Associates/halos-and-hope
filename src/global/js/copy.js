@@ -14,26 +14,34 @@ export const _copy = {
 		title: 'Donate',
 		subText: ['Venmo: @Jordon-Sargent', 'Cash App: $JordonSargent', 'PayPal: @Jssargent'],
 	},
+	whoWeAre: {
+		title: 'Who We Are',
+		subText: [''],
+	},
 	googleForms: {
-		donate: 'https://docs.google.com/forms/d/e/1FAIpQLSeQry2trA1EXBoVUtleTTL78YPaFDxh_BuZvd2hlWmbwQD52A/viewform?embedded=true',
+		help: 'https://docs.google.com/forms/d/e/1FAIpQLSeQry2trA1EXBoVUtleTTL78YPaFDxh_BuZvd2hlWmbwQD52A/viewform?embedded=true',
 		nominate:
 			'https://docs.google.com/forms/d/e/1FAIpQLSc070wKpCukk4b0SBcwDHUC9JklTmIJ_H8i5h7BjxZRInKLeA/viewform?embedded=true',
 	},
 	buttons: [
 		{
 			text: 'Nominate a Family',
+			meta: 'nominate',
 			icon: faGift,
 		},
 		{
 			text: 'Donate',
+			meta: 'donate',
 			icon: faSnowflake,
 		},
 		{
 			text: 'Ways to Help',
+			meta: 'help',
 			icon: faSleigh,
 		},
 		{
 			text: 'Who We Are',
+			meta: 'who-we-are',
 			icon: faHollyBerry,
 		},
 	],
