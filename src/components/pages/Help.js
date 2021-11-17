@@ -2,6 +2,7 @@ import React from 'react';
 import { _copy } from '@globals';
 import { Scrim } from '@ui';
 import { GoogleForm } from '../ui/GoogleForm/GoogleForm';
+import './pages.scss';
 
 const {
 	googleForms: { help },
@@ -9,8 +10,10 @@ const {
 
 export const Help = () => {
 	return (
-		<Scrim>
-			<GoogleForm src={help} closeLink="/" />
-		</Scrim>
+		<div class="page">
+			<Scrim>
+				<GoogleForm src={help} closeLink="/" />
+			</Scrim>
+		</div>
 	);
 };
