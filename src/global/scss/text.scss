@@ -1,7 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
+
 .title {
 	font-size: 4rem;
 }
 
 .subtitle {
 	font-size: 1.25rem;
+}
+
+@media (max-width: 1200px) {
+	.title {
+		font-size: 3rem;
+	}
+	.subtitle {
+		font-size: 1.25rem;
+	}
 }

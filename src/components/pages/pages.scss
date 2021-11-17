@@ -1,0 +1,12 @@
+.donate.img {
+	height: 250px;
+}
+.spacer {
+	height: 25%;
+}
+
+@media (max-width: 1100px) {
+	.spacer {
+		height: 0;
+	}
+}

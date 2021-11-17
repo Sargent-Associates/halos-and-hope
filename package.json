@@ -4,7 +4,7 @@
 	"description": "boilerplate for non CRA build",
 	"main": "index.js",
 	"scripts": {
-		"dev": "webpack-dev-server --mode=development --hot",
+		"start": "webpack-dev-server --mode=development --hot",
 		"build": "webpack --mode=production --progress"
 	},
 	"keywords": [
