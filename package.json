@@ -1,7 +1,7 @@
 {
-	"name": "react-starter",
+	"name": "hope-and-halos",
 	"version": "1.0.0",
-	"description": "boilerplate for non CRA build",
+	"description": "web app for donations",
 	"main": "index.js",
 	"scripts": {
 		"start": "webpack-dev-server --mode=development --hot",

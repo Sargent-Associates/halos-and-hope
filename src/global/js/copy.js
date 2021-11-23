@@ -16,7 +16,12 @@ export const _copy = {
 	},
 	whoWeAre: {
 		title: 'Who We Are',
-		subText: [''],
+		subText: [
+			'We’re just a group of friends and family members from Northern Utah who are trying to make a difference in our communities.',
+			'We have been extremely blessed throughout our lives. Because of all that we’ve been given, we feel it’s our duty to give back to society!',
+			'We know we are not alone in this, and have been overwhelmed with the amount of people who also want to help – especially at this time of year. The challenge is that most people don’t know where or how to help – so we set out on a mission; Find a place to connect people who want to give with people in need.',
+			'We appreciate people like you who are willing to help, in any way! So please, reach out and help us further the cause!',
+		],
 	},
 	googleForms: {
 		help: 'https://docs.google.com/forms/d/e/1FAIpQLSeQry2trA1EXBoVUtleTTL78YPaFDxh_BuZvd2hlWmbwQD52A/viewform?embedded=true',
