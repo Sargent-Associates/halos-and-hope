@@ -4,6 +4,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons';
 import './header.scss';
 import { useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
+// import logo from '../../../assets/images/logo_white.png';
 
 export const Header = ({ title, subText }) => {
 	const path = useLocation().pathname;
@@ -16,7 +17,7 @@ export const Header = ({ title, subText }) => {
 	});
 	return (
 		<header>
-			<h1 className="title glow white">{title}</h1>
+			{title === 'logo' ? <img src={logo} /> : <h1 className="title glow white">{title}</h1>}
 			{mappedSubText}
 			{path !== '/' && (
 				<Link to="/">

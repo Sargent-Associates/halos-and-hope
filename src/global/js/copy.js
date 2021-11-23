@@ -2,9 +2,9 @@ import { faGift, faSnowflake, faSleigh, faHollyBerry } from '@fortawesome/free-s
 
 export const _copy = {
 	home: {
-		title: 'Hope & Halos',
+		title: 'logo',
 		subText: [
-			'Tis the season of giving, and that is what we aim to do! Hard times have fallen on so many and we want to do everything we can to bring hope to those who need it. in 2020, because of your generous support, we were able to provide Christmas to 50 families across Utah! This year we are hoping to double that.',
+			'Tis the season of giving, and that is what we aim to do! Hard times have fallen on so many and we want to do everything we can to bring hope to those who need it.',
 			'If you know of a family who is in need, please take a moment to tell us a little more about them by nominating them below.',
 			'It is because of your generous giving that this is even possible. If you are in a position to help, please take a look at the different ways we could use your support! These include sponsoring a family, monetary donations of any size, and wrapping or delivering gifts.',
 			'If you have any questions, please feel free to reach out at help@hopeandhalos.org',
