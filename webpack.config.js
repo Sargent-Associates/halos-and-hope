@@ -24,15 +24,8 @@ module.exports = {
 				use: ['style-loader', 'css-loader', 'sass-loader'],
 			},
 			{
-				test: /\.(jpe?g)$/i,
-				use: [
-					{
-						loader: 'url-loader',
-						options: {
-							limit: 10000,
-						},
-					},
-				],
+				test: /\.(jpe?g|png)$/i,
+				type: 'asset',
 			},
 		],
 	},
